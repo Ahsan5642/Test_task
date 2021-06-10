@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Productfragment"
+    android:background="#F2F0F6">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:src="@drawable/sofa"
+       />
+    <TextView
+        android:layout_width="170dp"
+        android:textFontWeight="30"
+        android:layout_height="50dp"
+        android:text="SOFA BALERIA"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="RENT"
+            android:textSize="25dp"
+            android:textColor="#171220"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="300dp"/>
+        <TextView
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="REFUNABLE DEPOIST"
+            />
+</FrameLayout>

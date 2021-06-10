@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Cartfragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textAlignment="center"
+            android:text="YOUR CART"
+            android:textSize="40dp"
+            android:textColor="#110E15"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="130dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/cartrecycler"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/Chkbtn"
+            android:layout_marginTop="-67dp"
+            android:text="Total ="
+            android:id="@+id/txt1"
+            android:textSize="40dp"
+            android:textColor="#18161B"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="127dp"
+            android:layout_marginLeft="127dp"
+            android:layout_marginTop="580dp"
+            android:layout_toEndOf="@+id/txt1"
+            android:layout_toRightOf="@+id/txt1"
+            android:textSize="40dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:text="CheckOut "
+            android:id="@+id/Chkbtn"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="#ADE1CC"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
